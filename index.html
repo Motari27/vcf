@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect on WhatsApp! 📲</title>
+    <meta name="description" content="Enter your WhatsApp number and name to connect.">
+    <meta name="keywords" content="WhatsApp, connect, phone number, contact form">
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXXXXXX-X');
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-content">
+            <h1>Connect with Us on WhatsApp! 📲</h1>
+            <p>Enter your WhatsApp number and name to get started.</p>
+            <a href="#contact" class="cta">Get Started</a>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>We love staying connected with you. Enter your details to join our WhatsApp community.</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contactForm" action="https://formspree.io/f/mrbgbpqz" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="whatsapp">WhatsApp Number:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Stay Connected! All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/motari.jabez" target="_blank">
+                <img src="assets/images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/motari.jabez" target="_blank">
+                <img src="assets/images/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/motari.jabez" target="_blank">
+                <img src="assets/images/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://wa.me/+254732647560" target="_blank">
+                <img src="assets/images/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.x.com/@CanelleLanski27" target="_blank">
+                <img src="assets/images/twitter.png" alt="Twitter">
+            </a>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
